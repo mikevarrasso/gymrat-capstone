@@ -1,0 +1,515 @@
+* {
+    margin: 0%;
+}
+
+body {
+    background-color: #ffffff;
+    opacity: 1;
+    background-image: radial-gradient(#dedede 0.35000000000000003px, #ffffff 0.35000000000000003px);
+    background-size: 7px 7px;
+}
+
+#bar {
+    height: 100px;
+    background-color: #2b2a34;
+    font-size: 80px;
+    color: white;
+    display: flex;
+    font-family: 'Bebas Neue', cursive;
+}
+
+#logo {
+    margin-top: 30px;
+}
+
+#barTitle {
+    padding-left: 10px;
+}
+
+#blockTitle {
+    font-size: 30px;
+    font-family: 'Bebas Neue', cursive;
+    margin-bottom: 20px;
+}
+
+#loginBlock {
+    width: 600px;
+    height: 330px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    border-radius: 10px;
+    padding-top: 20px;
+    margin: auto;
+    margin-top: 50px;
+    background-color: white;
+    text-align: center;
+}
+
+#loginPrompt {
+    font-family: Arial, sans-serif;
+    margin-top: 10px;
+    color: #a5a5a7ed;
+}
+
+#loginPromptLink,
+#loginPromptLink:link,
+#loginPromptLink:visited {
+    text-decoration: none;
+    color: #2b2a34;
+}
+
+#registerBlock {
+    width: 600px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    border-radius: 10px;
+    padding-top: 20px;
+    margin: auto;
+    margin-top: 50px;
+    background-color: white;
+    text-align: center;
+    padding-bottom: 10px;
+}
+
+#addGymBlock {
+    width: 600px;
+    padding-bottom: 40px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    border-radius: 10px;
+    padding-top: 20px;
+    margin: auto;
+    margin-top: 50px;
+    background-color: white;
+    text-align: center;
+}
+
+#addGymtext {
+    height: 40px;
+    width: 200px;
+    border-style: solid;
+    border-width: 2px;
+    font-size: 15px;
+    margin-bottom: 30px;
+}
+
+#latLongInfo {
+    color: #85858a;
+    font-size: 10px;
+    font-weight: 200;
+    font-family: Helvetica, sans-serif;
+    padding: 10px;
+    margin-top: -30px;
+    margin-bottom: 20px;
+}
+
+#text {
+    height: 40px;
+    width: 400px;
+    border-style: solid;
+    border-width: 2px;
+    font-size: 15px;
+    margin-bottom: 30px;
+}
+
+#button {
+    height: 50px;
+    width: 400px;
+    background-color: #2b2a34;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    font-size: 20px;
+    font-family: 'Bebas Neue', cursive;
+}
+
+#profileCard {
+    margin: auto;
+    background-color: white;
+    height: 68%;
+    width: 900px;
+    margin-top: -150px;
+    position: relative;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    border-radius: 10px;
+}
+
+#profileImage {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    margin-top: 50px;
+    border: solid 4px;
+    border-color: #2b2a34;
+}
+
+#adminImage {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    margin-top: 50px;
+    border: solid 4px;
+    border-color: #FFD700;
+}
+
+#profileName {
+    color: #2b2a34;
+    font-size: 35px;
+    font-weight: 200;
+    font-family: Helvetica, sans-serif;
+}
+
+#profileSubheader {
+    color: #85858a;
+    font-size: 20px;
+    font-weight: 200;
+    font-family: Helvetica, sans-serif;
+    margin-top: -5px;
+}
+
+#profileReviewsSection {
+    margin-top: 60px;
+    margin-left: 40px;
+    width: 42%;
+    height: 500px;
+    position: absolute;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    border-radius: 10px;
+}
+
+#reviewsProfile {
+    font-size: 20px;
+    font-family: Helvetica, sans-serif;
+    overflow: scroll;
+    height: 430px;
+}
+
+#reviews {
+    font-size: 20px;
+    font-family: Helvetica, sans-serif;
+    overflow: scroll;
+    height: 810px;
+}
+
+#profileFavouritesSection {
+    margin-top: 60px;
+    margin-left: 480px;
+    width: 42%;
+    height: 500px;
+    position: absolute;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    border-radius: 10px;
+}
+
+#favourites {
+    font-size: 20px;
+    font-family: Helvetica, sans-serif;
+    overflow: scroll;
+    height: 430px;
+}
+
+#favouritesProfile {
+    font-size: 20px;
+    font-family: Helvetica, sans-serif;
+    overflow: scroll;
+    height: 430px;
+}
+
+.adminCard {
+    margin: 40px;
+    width: 500px;
+    height: 420px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    border-radius: 10px;
+    background-color: white;
+    overflow: scroll;
+    height: 430px;
+}
+
+.adminDataSection {
+    font-size: 20px;
+    font-family: Helvetica, sans-serif;
+}
+
+.dataHeader {
+    margin: 10px;
+    margin-bottom: 10px;
+    text-align: left;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 30px;
+}
+
+.num {
+    margin-left: 10px;
+    font-size: 50px;
+    color: gray;
+}
+
+#topRow {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#bottomRow {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#logout {
+    position: absolute;
+    right: 0;
+    font-family: 'Bebas Neue', cursive;
+    font-size: 40px;
+    margin-top: 30px;
+    margin-right: 20px;
+}
+
+#profileSection {
+    position: absolute;
+    right: 0;
+    font-family: 'Bebas Neue', cursive;
+    font-size: 42px;
+    margin-top: 25px;
+    margin-right: 20px;
+}
+
+#profileLink {
+    vertical-align: middle;
+    display: inline-block;
+}
+
+#profileIcon {
+    vertical-align: middle;
+    display: inline-block;
+    padding-bottom: 3px;
+    margin-left: -7px;
+}
+
+#profileLink:link {
+    color: white;
+    text-decoration: none;
+}
+
+#profileLink:visited {
+    color: white;
+    text-decoration: none;
+}
+
+#logoutButton {
+    color: white;
+}
+
+#profileSettingsCard {
+    margin: auto;
+    margin-top: 12%;
+    background-color: white;
+    height: 70%;
+    width: 900px;
+    position: relative;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    border-radius: 10px;
+}
+
+#homePage {
+    display: flex;
+    height: 1175px;
+}
+
+#map {
+    height: 89%;
+    border-radius: 5px;
+    margin-bottom: 1em;
+    align-items: center;
+}
+
+#mapCard {
+    background-color: white;
+    width: 65%;
+    padding: 20px;
+    margin: 20px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    border-radius: 10px;
+}
+
+#backButton,
+#backbutton:link {
+    position: absolute;
+    margin-left: 30px;
+    margin-bottom: 30px;
+    padding: 15px;
+    bottom: 0;
+    color: white;
+    background-color: #2b2a34;
+    border-radius: 50%;
+}
+
+#addButton,
+#addButton:link {
+    position: absolute;
+    margin-right: 30px;
+    right: 10;
+    margin-bottom: 30px;
+    padding: 15px;
+    bottom: 0;
+    color: white;
+    background-color: #2b2a34;
+    border-radius: 50%;
+}
+
+#adminButton,
+#adminButton:link {
+    position: absolute;
+    /* margin-right: 100px; */
+    right: 48%;
+    margin-bottom: 30px;
+    padding: 15px;
+    bottom: 0;
+    color: white;
+    background-color: #2b2a34;
+    border-radius: 50%;
+}
+
+#formTitle {
+    background-color: #2b2a34;
+    width: 100%;
+    font-size: 50px;
+    font-family: 'Bebas Neue', cursive;
+    color: white;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    text-align: center;
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+}
+
+#formSection {
+    background-color: white;
+    width: 35%;
+    margin: 20px;
+}
+
+#reviewsCard {
+    background-color: white;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    border-radius: 10px;
+    height: 74%;
+    overflow: scroll;
+}
+
+#formInput {
+    margin-top: 10px;
+    background-color: white;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    border-radius: 10px;
+    height: 25%;
+    text-align: center;
+}
+
+#formTextField {
+    margin: 20px;
+    height: 187px;
+    width: 90%;
+    border-style: solid;
+    border-width: 2px;
+    font-size: 15px;
+}
+
+#reviewButton {
+    width: 90%;
+    margin-top: -5px;
+}
+
+.btn {
+    padding: 10px;
+    margin-bottom: 10px;
+    cursor: pointer;
+    background-color: #2b2a34;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    font-size: 20px;
+    font-family: 'Bebas Neue', cursive;
+}
+
+#locatorTitle {
+    font-size: 50px;
+    font-family: 'Bebas Neue', cursive;
+    color: #2b2a34ed;
+}
+
+#locatorSubTitle {
+    font-size: 15px;
+    font-family: 'Bebas Neue', cursive;
+    color: #2b2a34ed;
+}
+
+#geolocate {
+    vertical-align: middle;
+    display: inline-block;
+}
+
+#geocode {
+    height: 50px;
+    width: 550px;
+    border-style: solid;
+    border-width: 2px;
+    border-radius: 4px;
+    font-size: 15px;
+    padding-top: 4px;
+}
+
+#carDirections {
+    width: 140px;
+    margin-left: 30px;
+    margin-top: 5px;
+    vertical-align: middle;
+    display: inline-block;
+    padding: 11px;
+}
+
+#bikeDirections {
+    width: 140px;
+    vertical-align: middle;
+    display: inline-block;
+    padding: 11px;
+    margin-top: 5px;
+}
+
+#deleteBlock {
+    font-family: Helvetica, sans-serif;
+    width: 600px;
+    height: fit-content;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    border-radius: 10px;
+    padding-top: 20px;
+    margin: auto;
+    margin-top: 50px;
+    background-color: white;
+    padding: 10px;
+}
+
+#deleteButton {
+    height: 50px;
+    width: 100px;
+    background-color: #2b2a34;
+    margin-top: 20px;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    font-size: 20px;
+    font-family: 'Bebas Neue', cursive;
+    margin-left: 500px;
+}
+
+#editReviewField {
+    width: 598px;
+    height: 50px;
+    border-style: solid;
+    border-width: 2px;
+    font-size: 15px;
+}
+
+button[disabled="disabled"],
+button:disabled {
+    background-color: rgb(63, 97, 245);
+}
