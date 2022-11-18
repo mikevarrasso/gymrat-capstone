@@ -51,7 +51,7 @@ if (isset($_SESSION['gymrat_userid']) && is_numeric($_SESSION['gymrat_userid']))
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="gymrat.css">
-    <link rel="icon" href="images/Rat.png" type="image/x-icon" />
+    <link rel="icon" href="Images/Rat.png" type="image/x-icon" />
     <title>Gym Rat | Admin Data</title>
 </head>
 
@@ -59,7 +59,7 @@ if (isset($_SESSION['gymrat_userid']) && is_numeric($_SESSION['gymrat_userid']))
     <!-- Page header -->
     <div id="bar">
         <div id="barTitle">Gym Rat</div>
-        <div id="logo"><img src="images/Rat.png" height="60px" /></div>
+        <div id="logo"><img src="Images/Rat.png" height="60px" /></div>
     </div>
 
     <!-- Here is where the  -->

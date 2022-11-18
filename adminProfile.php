@@ -44,7 +44,7 @@ if (isset($_SESSION['gymrat_userid']) && is_numeric($_SESSION['gymrat_userid']))
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="gymrat.css">
-    <link rel="icon" href="images/Rat.png" type="image/x-icon" />
+    <link rel="icon" href="Images/Rat.png" type="image/x-icon" />
     <title>Gym Rat | Profile</title>
 </head>
 
@@ -52,7 +52,7 @@ if (isset($_SESSION['gymrat_userid']) && is_numeric($_SESSION['gymrat_userid']))
     <!-- Page header -->
     <div id="bar">
         <div id="barTitle">Gym Rat</div>
-        <div id="logo"><img src="images/Rat.png" height="60px" /></div>
+        <div id="logo"><img src="Images/Rat.png" height="60px" /></div>
         <a id="logoutButton" href="logout.php" onclick="return confirm('Are you sure to logout?');"><span title="Logout" id="logout"><svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-logout" width="44" height="44" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
                     <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
                     <path d="M14 8v-2a2 2 0 0 0 -2 -2h-7a2 2 0 0 0 -2 2v12a2 2 0 0 0 2 2h7a2 2 0 0 0 2 -2v-2"></path>
@@ -63,9 +63,9 @@ if (isset($_SESSION['gymrat_userid']) && is_numeric($_SESSION['gymrat_userid']))
     <!-- Profile Info -->
     <div style="margin:auto">
         <div style="text-align:center;">
-            <img src="images/banner.png" style="width: 100%; height:350px;">
+            <img src="Images/banner.png" style="width: 100%; height:350px;">
             <div id="profileCard">
-                <img id="adminImage" src="images/admin.png">
+                <img id="adminImage" src="Images/admin.png">
                 <p id="profileName"><?php echo $user_data['first_name'] . " " . $user_data['last_name'] ?></p>
                 <p id="profileSubheader">Admin</p>
                 <div id="profileReviewsSection">

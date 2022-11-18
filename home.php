@@ -71,7 +71,7 @@ if ($_SERVER['REQUEST_METHOD'] == "POST") {
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="gymrat.css">
-    <link rel="icon" href="images/Rat.png" type="image/x-icon" />
+    <link rel="icon" href="Images/Rat.png" type="image/x-icon" />
     <title>Gym Rat | Home</title>
 </head>
 
@@ -79,7 +79,7 @@ if ($_SERVER['REQUEST_METHOD'] == "POST") {
     <!-- Page header -->
     <div id="bar">
         <div id="barTitle">Gym Rat</div>
-        <div id="logo"><img src="images/Rat.png" height="60px" /></div>
+        <div id="logo"><img src="Images/Rat.png" height="60px" /></div>
         <div id="profileSection">
             <a id="profileLink" href="profile.php" title="Profile"><?php echo $user_data['first_name'] ?> </a>
         </div>
@@ -234,10 +234,10 @@ if ($_SERVER['REQUEST_METHOD'] == "POST") {
                     // Set the icon based on the category of the gym
                     if (gyms[i].gym_type == "MMA")
                         new_icon =
-                        "images/mma.png";
+                        "Images/mma.png";
                     else if (gyms[i].gym_type == "Fitness")
                         new_icon =
-                        "images/weights.png";
+                        "Images/weights.png";
 
                     // Create the marker based on the array in the Gyms.js file
                     new_marker = new google.maps.Marker({

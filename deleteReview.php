@@ -76,7 +76,7 @@ if ($_SERVER['REQUEST_METHOD'] == "POST") {
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="gymrat.css">
-    <link rel="icon" href="images/Rat.png" type="image/x-icon" />
+    <link rel="icon" href="Images/Rat.png" type="image/x-icon" />
     <title>Gym Rat | Delete Review</title>
 </head>
 
@@ -84,7 +84,7 @@ if ($_SERVER['REQUEST_METHOD'] == "POST") {
     <!-- Page header -->
     <div id="bar">
         <div id="barTitle">Gym Rat</div>
-        <div id="logo"><img src="images/Rat.png" height="60px" /></div>
+        <div id="logo"><img src="Images/Rat.png" height="60px" /></div>
     </div>
 
     <div id="deleteBlock">
