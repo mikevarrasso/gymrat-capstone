@@ -30,7 +30,7 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
     <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="gymrat.css">
     <link rel="icon" href="gymrat-capstone/images/Rat.png" type="image/x-icon" />
-    <title>Gym Rat | Log in</title>
+    <title>Gym Rat | Log innn</title>
 </head>
 
 <body>
