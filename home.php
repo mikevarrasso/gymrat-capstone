@@ -284,7 +284,7 @@ if ($_SERVER['REQUEST_METHOD'] == "POST") {
                             var marker = new google.maps.Marker({
                                 map: map,
                                 position: results[0].geometry.location,
-                                icon: "images/home.png",
+                                icon: "Images/home.png",
                                 title: address,
                             });
                             origin = marker.position;
@@ -358,7 +358,7 @@ if ($_SERVER['REQUEST_METHOD'] == "POST") {
                         lng: position.coords.longitude,
                     },
                     title: "Current location",
-                    icon: "images/person.png",
+                    icon: "Images/person.png",
                 });
 
                 // Place the marker on the map
