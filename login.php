@@ -37,7 +37,7 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
     <!-- Page header -->
     <div id="bar">
         <div id="barTitle">Gym Rat</div>
-        <div id="logo"><img src="images/Rat.png" height="60px" /></div>
+        <div id="logo"><img src="gymrat-capstone/images/Rat.png" height="60px" /></div>
     </div>
 
     <div id="loginBlock">
