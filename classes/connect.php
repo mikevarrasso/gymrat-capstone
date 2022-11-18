@@ -3,10 +3,10 @@
 class Database
 {
     // Connection Variables
-    private $host = "localhost";
-    private $username = "root";
-    private $password = "";
-    private $db = "gymrat_db";
+    private $host = "us-cdbr-east-06.cleardb.net";
+    private $username = "bddcfa07a2ccae";
+    private $password = "73888856";
+    private $db = "heroku_802bf58c831e79c";
 
     // This function connects to the databse using a connection string
     function connect_db()
